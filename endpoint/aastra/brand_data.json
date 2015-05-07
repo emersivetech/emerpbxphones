@@ -1,0 +1,27 @@
+{
+  "data": {
+    "brands": {
+      "name": "Aastra",
+      "brand_id": "1",
+      "directory": "aastra",
+      "package": "aastra.tgz",
+      "md5sum": "ddc6f19c9288e5b35ba10cf45a5f417d",
+      "last_modified": 1430358890,
+      "changelog": "PACKAGER: ",
+      "family_list": [
+        {
+          "id": "1",
+          "name": "Aastra Models: 94xx, 67xx, 9143i [9480i, 9480i CT, 9143i,67xx]",
+          "directory": "aap9xxx6xxx",
+          "description": "Initial Files",
+          "changelog": "",
+          "last_modified": null
+        }
+      ],
+      "oui_list": [
+        "00085D",
+        "0010BC"
+      ]
+    }
+  }
+}

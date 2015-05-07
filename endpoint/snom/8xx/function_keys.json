@@ -1,0 +1,205 @@
+{
+  "template_data":{
+    "category":[
+      {
+        "name":"function keys",
+        "subcategory":[
+          {
+            "name":"function keys",
+            "item":[
+              {
+                "description":"Function Keys (0-17)",
+                "type":"loop",
+                "loop_start":"0",
+                "loop_end":"17",
+                "data":{
+                  "item":[
+                    {
+                      "variable":"$functionkey_label",
+                      "default_value":"",
+                      "description":"Function Key {$count} Label",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$functionkey_context",
+                      "default_value":"active",
+                      "description":"Function Key {$count} Context",
+                      "type":"list",
+                      "data":[
+                        {
+                          "text":"Active",
+                          "value":"active"
+                        },
+                        {
+                          "text":"1",
+                          "value":"1"
+                        },
+                        {
+                          "text":"2",
+                          "value":"2"
+                        },
+                        {
+                          "text":"3",
+                          "value":"3"
+                        },
+                        {
+                          "text":"4",
+                          "value":"4"
+                        },
+                        {
+                          "text":"5",
+                          "value":"5"
+                        },
+                        {
+                          "text":"6",
+                          "value":"6"
+                        },
+                        {
+                          "text":"7",
+                          "value":"7"
+                        },
+                        {
+                          "text":"8",
+                          "value":"8"
+                        },
+                        {
+                          "text":"9",
+                          "value":"9"
+                        },
+                        {
+                          "text":"10",
+                          "value":"10"
+                        },
+                        {
+                          "text":"11",
+                          "value":"11"
+                        },
+                        {
+                          "text":"12",
+                          "value":"12"
+                        }
+                      ]
+                    },
+                    {
+                      "variable":"$functionkey_type",
+                      "default_value":"none",
+                      "description":"Function Key {$count} Type",
+                      "type":"list",
+                      "data":[
+						  {
+							"value": "none",
+							"text": "None"
+						  },
+						  {
+							"value": "url",
+							"text": "Action URL"
+						  },
+						  {
+							"value": "auto_answer",
+							"text": "Auto Answer"
+						  },
+						  {
+							"value": "blf",
+							"text": "BLF"
+						  },
+						  {
+							"value": "button",
+							"text": "Button"
+						  },
+						  {
+							"value": "call_agent",
+							"text": "Call Agent"
+						  },
+						  {
+							"value": "callback_on_busy",
+							"text": "Callback"
+						  },
+						  {
+							"value": "conference",
+							"text": "Conference Server"
+						  },
+						  {
+							"value": "dtmf",
+							"text": "DTMF"
+						  },
+						  {
+							"value": "dest",
+							"text": "Extension"
+						  },
+						  {
+							"value": "redirect",
+							"text": "Forward to"
+						  },
+						  {
+							"value": "icom",
+							"text": "Intercom"
+						  },
+						  {
+							"value": "ivr",
+							"text": "IVR"
+						  },
+						  {
+							"value": "keyevent",
+							"text": "Key Event"
+						  },
+						  {
+							"value": "line",
+							"text": "Line"
+						  },
+						  {
+							"value": "multicast",
+							"text": "Multicast Page"
+						  },
+						  {
+							"value": "orbit",
+							"text": "Park+Orbit"
+						  },
+						  {
+							"value": "presence",
+							"text": "Presence"
+						  },
+						  {
+							"value": "p2t",
+							"text": "Push2Talk"
+						  },
+						  {
+							"value": "mult",
+							"text": "Shared Line"
+						  },
+						  {
+							"value": "speed",
+							"text": "Speed Dial"
+						  },
+						  {
+							"value": "transfer",
+							"text": "Transfer to"
+						  },
+						  {
+							"value": "recorder",
+							"text": "Voice+Recorder"
+						  },
+						  {
+							"value": "xml",
+							"text": "Xml Definition"
+						  }
+                      ]
+                    },
+                    {
+                      "variable":"$functionkey_value",
+                      "default_value":"",
+                      "description":"Function Key {$count} Value",
+                      "type":"input"
+                    },
+                    {
+                      "type":"break"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

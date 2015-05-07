@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Copywrighted by Ed Macri and John Mullinix -->
+<settings>
+  <phone-settings>
+	<line_info_at_idle perm="">on</line_info_at_idle>
+	<line_info_at_registration perm="">off</line_info_at_registration>
+	<line_info_at_presence perm="">off</line_info_at_presence>
+	<line_info_at_buddies perm="">off</line_info_at_buddies>
+	<line_info_at_minibrowser perm="">off</line_info_at_minibrowser>
+	<line_info_at_directory perm="">off</line_info_at_directory>
+	<line_info_at_mailbox_info perm="">off</line_info_at_mailbox_info>
+	<line_info_at_edit_number perm="">off</line_info_at_edit_number>
+	<line_info_at_ringing perm="">off</line_info_at_ringing>
+	<line_info_at_calling perm="">off</line_info_at_calling>
+	<line_info_at_call_completion perm="">off</line_info_at_call_completion>
+	<line_info_at_auto_redial perm="">off</line_info_at_auto_redial>
+	<line_info_at_connected perm="">on</line_info_at_connected>
+	<line_info_at_conference perm="">off</line_info_at_conference>
+	<line_info_at_transfer perm="">off</line_info_at_transfer>
+	<line_info_at_holding perm="">off</line_info_at_holding>
+	<line_info_at_settings perm="">off</line_info_at_settings>
+	<line_info_at_terminated perm="">off</line_info_at_terminated>
+  </phone-settings>
+</settings>
