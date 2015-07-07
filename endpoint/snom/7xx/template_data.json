@@ -97,7 +97,7 @@
                 "type":"break"
               },
               {
-                "variable":"$firmwareurl",
+                "variable":"$firmware_url",
                 "default_value":"",
                 "description":"Firmware URL",
                 "type":"input"
