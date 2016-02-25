@@ -8,7 +8,7 @@
 		"firmware_pkg":"NULL",
 		"firmware_md5sum":"",
 		"description":"Server + Password Settings, cfg File Fixes",
-		"configuration_files":"Config$mac.cfg,Config$model.cfg,ConfigCommon.cfg",
+		"configuration_files":"$mac.cfg,$model.cfg,ConfigCommon.cfg",
 		"changelog":"",
 		"provisioning_types":
 		[
