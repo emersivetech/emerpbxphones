@@ -6,7 +6,7 @@
       "brand_id": "101",
       "package": "panasonic.tgz",
       "md5sum": "dce6737850378430f14a28494b037693",
-      "last_modified": 1456366448,
+      "last_modified": 1456370183,
       "family_list": [
         {
           "id": "1",
@@ -14,7 +14,7 @@
           "directory": "KXHDV2xx",
           "description": "Panasonic KXHDV2xx Phones",
           "changelog": "",
-          "last_modified": 1456369970
+          "last_modified": 1456370183
         }
       ],
       "oui_list": [
