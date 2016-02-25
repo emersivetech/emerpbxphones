@@ -3,10 +3,10 @@
     "brands": {
       "name": "Panasonic",
       "directory": "panasonic",
-      "brand_id": "20",
+      "brand_id": "101",
       "package": "panasonic.tgz",
       "md5sum": "dce6737850378430f14a28494b037693",
-      "last_modified": 1456358389,
+      "last_modified": 1456366448,
       "family_list": [
         {
           "id": "1",
@@ -14,7 +14,7 @@
           "directory": "KX-HDV2xx",
           "description": "Panasonic KX-HDV2xx Phones",
           "changelog": "",
-          "last_modified": 1456358389
+          "last_modified": 1456366448
         }
       ],
       "oui_list": [
