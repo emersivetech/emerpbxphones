@@ -2,7 +2,7 @@
   "data": {
     "brands": {
       "name": "Panasonic",
-      "directory": "Panasonic",
+      "directory": "panasonic",
       "brand_id": "20",
       "package": "panasonic.tgz",
       "md5sum": "dce6737850378430f14a28494b037693",
