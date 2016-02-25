@@ -1,0 +1,26 @@
+{
+  "data": {
+    "brands": {
+      "name": "Panasonic",
+      "directory": "Panasonic",
+      "brand_id": "20",
+      "package": "panasonic.tgz",
+      "md5sum": "dce6737850378430f14a28494b037693",
+      "last_modified": 1456358389,
+      "family_list": [
+        {
+          "id": "1",
+          "name": "Panasonic KX-HDV2xx",
+          "directory": "KX-HDV2xx",
+          "description": "Panasonic KX-HDV2xx Phones",
+          "changelog": "",
+          "last_modified": 1456358389
+        }
+      ],
+      "oui_list": [
+        "080023"
+      ],
+      "changelog": "Initial Release of Brand"
+    }
+  }
+}

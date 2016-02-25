@@ -1,0 +1,35 @@
+{
+	"data":
+	{
+		"name":"Panasonic KX-HDV2xx Models [230]",
+		"id":"1",
+		"directory":"KX-HDV2xx",
+		"firmware_ver":"",
+		"firmware_pkg":"NULL",
+		"firmware_md5sum":"",
+		"description":"Server + Password Settings, cfg File Fixes",
+		"configuration_files":"Config$mac.cfg,Config$model.cfg,ConfigCommon.cfg",
+		"changelog":"",
+		"provisioning_types":
+		[
+			"tftp"
+		],
+		"model_list":
+		[
+			{
+				"model":"230",
+				"lines":"6",
+				"id":"1",
+				"template_data":
+				[
+					"line_options.json",
+					"template_data.json",
+					"action_urls.json",
+					"function_keys.json",
+					"speed_dials.json",
+					"idle_touch_keys.json"
+				]
+			}
+		]
+	}
+}

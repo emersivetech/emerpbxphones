@@ -1,6 +1,6 @@
 {
   "data": {
-    "last_modified": 1431043356,
+    "last_modified": 1456358196,
     "package": "provisioner_net.tgz",
     "brands": [
       {
@@ -10,7 +10,11 @@
       {
         "name": "Snom",
         "directory": "snom"
-      }
+      },
+      {
+        "name": "Panasonic",
+        "directory": "panasonic"
+      },
     ],
     "version": "3"
   }
