@@ -8,6 +8,6 @@
  */
 class endpoint_panasonic_KXHDV2xx_phone extends endpoint_panasonic_base {
 
-	public $family_line = 'KX-HDV2xx';
+	public $family_line = 'KXHDV2xx';
 	
 }
