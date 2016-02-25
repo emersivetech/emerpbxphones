@@ -20,52 +20,6 @@
                 "type":"input"
               },
               {
-                "type":"break"
-              },
-              {
-                "variable":"$svlan_id",
-                "default_value":"",
-                "description":"VLAN Id (0..4095)",
-                "type":"input"
-              },
-              {
-                "variable":"$svlan_qos",
-                "default_value":"",
-                "description":"VLAN Priority (0..7)",
-                "type":"input"
-              },
-              {
-                "variable":"$vlan_port_tagging",
-                "default_value":"off",
-                "description":"Un-Tag VLAN traffic",
-                "type":"radio",
-                "data":[
-                  {
-                    "text":"On",
-                    "value":"on"
-                  },
-                  {
-                    "text":"Off",
-                    "value":"off"
-                  }
-                ]
-              },
-              {
-                "variable":"$vlan_pc_id",
-                "default_value":"",
-                "description":"PC Port VLAN Id (0..4095)",
-                "type":"input"
-              },
-              {
-                "variable":"$vlan_pc_priority",
-                "default_value":"",
-                "description":"PC Port VLAN Priority (0..7)",
-                "type":"input"
-              },
-              {
-                "type":"break"
-              },
-              {
                 "variable":"$admin_mode",
                 "default_value":"on",
                 "description":"Admin Mode Enable",
@@ -91,6 +45,49 @@
                 "variable":"$admin_mode_password",
                 "default_value":"emersive",
                 "description":"Admin Mode Password",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$vlan_enable",
+                "default_value":"N",
+                "description":"Enable VLAN Tags",
+                "type":"radio",
+                "data":[
+                  {
+                    "text":"Yes",
+                    "value":"Y"
+                  },
+                  {
+                    "text":"No",
+                    "value":"N"
+                  }
+                ]
+              },
+              {
+                "variable":"$vlan_id",
+                "default_value":"",
+                "description":"Phone VLAN ID",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_qos",
+                "default_value":"",
+                "description":"Phone VLAN Priority",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_pc_id",
+                "default_value":"",
+                "description":"PC Port VLAN Id",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_pc_priority",
+                "default_value":"",
+                "description":"PC Port VLAN Priority",
                 "type":"input"
               },
               {
@@ -135,7 +132,7 @@
                 "data":[
   				  {
 					"value": "",
-					"text": "Unused" 
+					"text": "Unused"
 				  },
 				  {
 					"value": "USA-10",
