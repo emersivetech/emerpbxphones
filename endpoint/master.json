@@ -1,6 +1,6 @@
 {
   "data": {
-    "last_modified": 1456358196,
+    "last_modified": 1456366082,
     "package": "provisioner_net.tgz",
     "brands": [
       {
@@ -14,7 +14,7 @@
       {
         "name": "Panasonic",
         "directory": "panasonic"
-      },
+      }
     ],
     "version": "3"
   }
