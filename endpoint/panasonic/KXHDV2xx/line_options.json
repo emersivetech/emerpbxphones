@@ -175,7 +175,7 @@
                       "default_value":"2999",
                       "description":"Voicemail Number",
                       "type":"input"
-                    },
+                    }
                   ]
                 }
               }
