@@ -9,7 +9,7 @@
             "item":[
               {
                 "variable":"$http_user",
-                "default_value":"admin",
+                "default_value":"user",
                 "description":"HTTP Username",
                 "type":"input"
               },
