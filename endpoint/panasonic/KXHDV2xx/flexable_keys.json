@@ -61,7 +61,7 @@
 							"text": "Line Status"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_CF",
+							"value": "X_PANASONIC_IPTEL_FORWARD",
 							"text": "Call Forward"
 						  },
 						  {
@@ -69,15 +69,15 @@
 							"text": "Phonebook"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_CH",
+							"value": "X_PANASONIC_IPTEL_CALLLOG",
 							"text": "Call History"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_SR",
+							"value": "X_PANASONIC_IPTEL_PARARING",
 							"text": "Simultaneous Ring"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_HOSPITALITY",
+							"value": "X_PANASONIC_IPTEL_HOTELING",
 							"text": "Hospitality"
 						  },
 						  {
@@ -93,7 +93,7 @@
 							"text": "Conference"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_DP",
+							"value": "X_PANASONIC_IPTEL_DIRECTPICKUP",
 							"text": "Directed Call Pickup"
 						  },
 						  {
@@ -101,7 +101,7 @@
 							"text": "Call Park"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_CPR",
+							"value": "X_PANASONIC_IPTEL_PARKRETRIEVE",
 							"text": "Call Park Retrieve"
 						  }
                       ]
