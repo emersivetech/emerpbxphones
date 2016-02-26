@@ -21,6 +21,12 @@
                       "type":"input"
                     },
                     {
+                      "variable":"$flexablekey_value",
+                      "default_value":"",
+                      "description":"Parameter {$count}",
+                      "type":"input"
+                    },
+                    {
                       "variable":"$flexablekey_type",
                       "default_value":"2",
                       "description":"Type {$count}",
@@ -99,12 +105,6 @@
 							"text": "Call Park Retrieve"
 						  }
                       ]
-                    },
-                    {
-                      "variable":"$flexablekey_value",
-                      "default_value":"",
-                      "description":"Parameter {$count}",
-                      "type":"input"
                     }
                   ]
                 }
