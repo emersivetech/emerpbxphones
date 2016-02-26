@@ -24,9 +24,7 @@
 				[
 					"line_options.json",
 					"template_data.json",
-					"action_urls.json",
-					"function_keys.json",
-					"speed_dials.json",
+					"flexable_keys.json",
 					"idle_touch_keys.json"
 				]
 			}

@@ -55,7 +55,7 @@
                     },
                     {
                       "variable":"$extringer",
-                      "default_value":"Ringer9",
+                      "default_value":"25",
                       "description":"Ringtone for this line",
                       "type":"list",
                       "data":[

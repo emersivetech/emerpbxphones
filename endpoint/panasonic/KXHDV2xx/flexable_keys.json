@@ -1,0 +1,118 @@
+{
+  "template_data":{
+    "category":[
+      {
+        "name":"flexable keys",
+        "subcategory":[
+          {
+            "name":"flexable keys",
+            "item":[
+              {
+                "description":"Flexable Keys (1-24)",
+                "type":"loop",
+                "loop_start":"1",
+                "loop_end":"24",
+                "data":{
+                  "item":[
+                    {
+                      "variable":"$flexablekey_label",
+                      "default_value":"",
+                      "description":"Label Name {$count}",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$flexablekey_type",
+                      "default_value":"2",
+                      "description":"Type {$count}",
+                      "type":"list",
+                      "data":[
+						  {
+							"value": "0",
+							"text": "None"
+						  },
+						  {
+							"value": "1",
+							"text": "One Touch Dial"
+						  },
+						  {
+							"value": "2",
+							"text": "BLF"
+						  },
+						  {
+							"value": "3",
+							"text": "Line"
+						  },
+						  {
+							"value": "4",
+							"text": "ACD"
+						  },
+						  {
+							"value": "5",
+							"text": "Wrap"
+						  },
+						  {
+							"value": "6",
+							"text": "Line Status"
+						  },
+						  {
+							"value": "7",
+							"text": "Call Forward"
+						  },
+						  {
+							"value": "8",
+							"text": "Phonebook"
+						  },
+						  {
+							"value": "9",
+							"text": "Call History"
+						  },
+						  {
+							"value": "10",
+							"text": "Simultaneous Ring"
+						  },
+						  {
+							"value": "11",
+							"text": "Hospitality"
+						  },
+						  {
+							"value": "12",
+							"text": "Trasnfer"
+						  },
+						  {
+							"value": "13",
+							"text": "Blind Transfer"
+						  },
+						  {
+							"value": "14",
+							"text": "Conference"
+						  },
+						  {
+							"value": "15",
+							"text": "Directed Call Pickup"
+						  },
+						  {
+							"value": "16",
+							"text": "Call Park"
+						  },
+						  {
+							"value": "17",
+							"text": "Call Park Retrieve"
+						  }
+                      ]
+                    },
+                    {
+                      "variable":"$flexablekey_value",
+                      "default_value":"",
+                      "description":"Parameter {$count}",
+                      "type":"input"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
