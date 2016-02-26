@@ -2,254 +2,106 @@
   "template_data":{
     "category":[
       {
-        "name":"idle touch keys",
+        "name":"idle soft keys",
         "subcategory":[
           {
-            "name":"idle touch keys",
+            "name":"idle soft keys",
             "item":[
               {
-                "variable":"$dkey_touch_idle_support_type",
-                "default_value":"keyevent",
-                "description":"Idle Support Type",
+                "variable":"$idle_key_a",
+                "default_value":"Phonebook",
+                "description":"Soft Key A (Left)",
                 "type":"list",
                 "data":[
                   {
-                    "text":"None",
-                    "value":"none"
+                    "text":"Phonebook",
+                    "value":"Phonebook"
                   },
                   {
-                    "text":"Voice Recorder",
-                    "value":"recorder"
+                    "text":"Menu",
+                    "value":"Menu"
                   },
                   {
-                    "text":"DTMF",
-                    "value":"dtmf"
+                    "text":"Outgoing Call Log",
+                    "value":"Outgoing Call Log"
                   },
                   {
-                    "text":"Action URL",
-                    "value":"url"
+                    "text":"Incoming Call Log",
+                    "value":"Incoming Call Log"
                   },
                   {
-                    "text":"Key Event",
-                    "value":"keyevent"
+                    "text":"Redial",
+                    "value":"Redial"
                   },
                   {
-                    "text":"Speed Dial",
-                    "value":"speed"
-                  },
-                  {
-                    "text":"Button",
-                    "value":"button"
-                  },
-                  {
-                    "text":"IRV",
-                    "value":"irv"
-                  },
-                  {
-                    "text":"Forward To",
-                    "value":"redirect"
-                  },
-                  {
-                    "text":"Transfer To",
-                    "value":"transfer"
-                  },
-                  {
-                    "text":"Auto Answer",
-                    "value":"auto_answer"
+                    "text":"Page",
+                    "value":"Page"
                   }
                 ]
               },
               {
-                "variable":"$dkey_touch_idle_support_value",
-                "default_value":"F_SUPPORT",
-                "description":"Idle Support Value",
-                "type":"input"
-              },
-              {
-                "type":"break"
-              },
-              {
-                "variable":"$dkey_touch_idle_menu_type",
-                "default_value":"keyevent",
-                "description":"Idle Menu Type",
+                "variable":"$idle_key_b",
+                "default_value":"Menu",
+                "description":"Soft Key B (Middle)",
                 "type":"list",
                 "data":[
                   {
-                    "text":"None",
-                    "value":"none"
+                    "text":"Phonebook",
+                    "value":"Phonebook"
                   },
                   {
-                    "text":"Voice Recorder",
-                    "value":"recorder"
+                    "text":"Menu",
+                    "value":"Menu"
                   },
                   {
-                    "text":"DTMF",
-                    "value":"dtmf"
+                    "text":"Outgoing Call Log",
+                    "value":"Outgoing Call Log"
                   },
                   {
-                    "text":"Action URL",
-                    "value":"url"
+                    "text":"Incoming Call Log",
+                    "value":"Incoming Call Log"
                   },
                   {
-                    "text":"Key Event",
-                    "value":"keyevent"
+                    "text":"Redial",
+                    "value":"Redial"
                   },
                   {
-                    "text":"Speed Dial",
-                    "value":"speed"
-                  },
-                  {
-                    "text":"Button",
-                    "value":"button"
-                  },
-                  {
-                    "text":"IRV",
-                    "value":"irv"
-                  },
-                  {
-                    "text":"Forward To",
-                    "value":"redirect"
-                  },
-                  {
-                    "text":"Transfer To",
-                    "value":"transfer"
-                  },
-                  {
-                    "text":"Auto Answer",
-                    "value":"auto_answer"
+                    "text":"Page",
+                    "value":"Page"
                   }
                 ]
               },
               {
-                "variable":"$dkey_touch_idle_menu_value",
-                "default_value":"F_SETTINGS",
-                "description":"Idle Menu Value",
-                "type":"input"
-              },
-              {
-                "type":"break"
-              },
-              {
-                "variable":"$dkey_touch_idle_adr_book_type",
-                "default_value":"keyevent",
-                "description":"Idle Address Book Type",
+                "variable":"$idle_key_c",
+                "default_value":"Outgoing Call Log",
+                "description":"Soft Key C (Right)",
                 "type":"list",
                 "data":[
                   {
-                    "text":"None",
-                    "value":"none"
+                    "text":"Phonebook",
+                    "value":"Phonebook"
                   },
                   {
-                    "text":"Voice Recorder",
-                    "value":"recorder"
+                    "text":"Menu",
+                    "value":"Menu"
                   },
                   {
-                    "text":"DTMF",
-                    "value":"dtmf"
+                    "text":"Outgoing Call Log",
+                    "value":"Outgoing Call Log"
                   },
                   {
-                    "text":"Action URL",
-                    "value":"url"
+                    "text":"Incoming Call Log",
+                    "value":"Incoming Call Log"
                   },
                   {
-                    "text":"Key Event",
-                    "value":"keyevent"
+                    "text":"Redial",
+                    "value":"Redial"
                   },
                   {
-                    "text":"Speed Dial",
-                    "value":"speed"
-                  },
-                  {
-                    "text":"Button",
-                    "value":"button"
-                  },
-                  {
-                    "text":"IRV",
-                    "value":"irv"
-                  },
-                  {
-                    "text":"Forward To",
-                    "value":"redirect"
-                  },
-                  {
-                    "text":"Transfer To",
-                    "value":"transfer"
-                  },
-                  {
-                    "text":"Auto Answer",
-                    "value":"auto_answer"
+                    "text":"Page",
+                    "value":"Page"
                   }
                 ]
-              },
-              {
-                "variable":"$dkey_touch_idle_adr_book_value",
-                "default_value":"F_ADR_BOOK",
-                "description":"Idle Address Book Value",
-                "type":"input"
-              },
-              {
-                "type":"break"
-              },
-              {
-                "variable":"$dkey_touch_idle_dir_search_type",
-                "default_value":"keyevent",
-                "description":"Idle Directory Search Type",
-                "type":"list",
-                "data":[
-                  {
-                    "text":"None",
-                    "value":"none"
-                  },
-                  {
-                    "text":"Voice Recorder",
-                    "value":"recorder"
-                  },
-                  {
-                    "text":"DTMF",
-                    "value":"dtmf"
-                  },
-                  {
-                    "text":"Action URL",
-                    "value":"url"
-                  },
-                  {
-                    "text":"Key Event",
-                    "value":"keyevent"
-                  },
-                  {
-                    "text":"Speed Dial",
-                    "value":"speed"
-                  },
-                  {
-                    "text":"Button",
-                    "value":"button"
-                  },
-                  {
-                    "text":"IRV",
-                    "value":"irv"
-                  },
-                  {
-                    "text":"Forward To",
-                    "value":"redirect"
-                  },
-                  {
-                    "text":"Transfer To",
-                    "value":"transfer"
-                  },
-                  {
-                    "text":"Auto Answer",
-                    "value":"auto_answer"
-                  }
-                ]
-              },
-              {
-                "variable":"$dkey_touch_idle_dir_search_value",
-                "default_value":"F_REMOTE_DIR",
-                "description":"Idle Directory Search Value",
-                "type":"input"
-              },
-              {
-                "type":"break"
               }
             ]
           }
