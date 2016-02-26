@@ -28,7 +28,7 @@
                     },
                     {
                       "variable":"$flexablekey_type",
-                      "default_value":"X_PANASONIC_IPTEL_BLF",
+                      "default_value":"0",
                       "description":"Type {$count}",
                       "type":"list",
                       "data":[
