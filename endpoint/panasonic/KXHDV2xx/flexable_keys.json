@@ -28,7 +28,7 @@
                     },
                     {
                       "variable":"$flexablekey_type",
-                      "default_value":"2",
+                      "default_value":"X_PANASONIC_IPTEL_BLF",
                       "description":"Type {$count}",
                       "type":"list",
                       "data":[
@@ -37,7 +37,7 @@
 							"text": "None"
 						  },
 						  {
-							"value": "1",
+							"value": "X_PANASONIC_IPTEL_ONETOUCH",
 							"text": "One Touch Dial"
 						  },
 						  {
@@ -45,63 +45,63 @@
 							"text": "BLF"
 						  },
 						  {
-							"value": "3",
+							"value": "X_PANASONIC_IPTEL_LINE",
 							"text": "Line"
 						  },
 						  {
-							"value": "4",
+							"value": "X_PANASONIC_IPTEL_ACD",
 							"text": "ACD"
 						  },
 						  {
-							"value": "5",
+							"value": "X_PANASONIC_IPTEL_WRAPUP",
 							"text": "Wrap"
 						  },
 						  {
-							"value": "6",
+							"value": "X_PANASONIC_IPTEL_LINESTATUS",
 							"text": "Line Status"
 						  },
 						  {
-							"value": "7",
+							"value": "X_PANASONIC_IPTEL_CALLFORWARD",
 							"text": "Call Forward"
 						  },
 						  {
-							"value": "8",
+							"value": "X_PANASONIC_IPTEL_PHONEBOOK",
 							"text": "Phonebook"
 						  },
 						  {
-							"value": "9",
+							"value": "X_PANASONIC_IPTEL_CALLHISTORY",
 							"text": "Call History"
 						  },
 						  {
-							"value": "10",
+							"value": "X_PANASONIC_IPTEL_SIMULTANEOUSRING",
 							"text": "Simultaneous Ring"
 						  },
 						  {
-							"value": "11",
+							"value": "X_PANASONIC_IPTEL_HOSPITALITY",
 							"text": "Hospitality"
 						  },
 						  {
-							"value": "12",
+							"value": "X_PANASONIC_IPTEL_TRANSFER",
 							"text": "Trasnfer"
 						  },
 						  {
-							"value": "13",
+							"value": "X_PANASONIC_IPTEL_BLINDTRANSFER",
 							"text": "Blind Transfer"
 						  },
 						  {
-							"value": "14",
+							"value": "X_PANASONIC_IPTEL_CONFERENCE",
 							"text": "Conference"
 						  },
 						  {
-							"value": "15",
+							"value": "X_PANASONIC_IPTEL_DIRECTEDCALLPICKUP",
 							"text": "Directed Call Pickup"
 						  },
 						  {
-							"value": "16",
+							"value": "X_PANASONIC_IPTEL_CALLPARK",
 							"text": "Call Park"
 						  },
 						  {
-							"value": "17",
+							"value": "X_PANASONIC_IPTEL_CALLPARKRETRIEVE",
 							"text": "Call Park Retrieve"
 						  }
                       ]
