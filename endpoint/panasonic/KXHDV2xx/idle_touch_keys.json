@@ -9,97 +9,97 @@
             "item":[
               {
                 "variable":"$idle_key_a",
-                "default_value":"Phonebook",
+                "default_value":"1",
                 "description":"Soft Key A (Left)",
                 "type":"list",
                 "data":[
                   {
                     "text":"Phonebook",
-                    "value":"Phonebook"
+                    "value":"1"
                   },
                   {
                     "text":"Menu",
-                    "value":"Menu"
+                    "value":"2"
                   },
                   {
                     "text":"Outgoing Call Log",
-                    "value":"Outgoing Call Log"
+                    "value":"3"
                   },
                   {
                     "text":"Incoming Call Log",
-                    "value":"Incoming Call Log"
+                    "value":"4"
                   },
                   {
                     "text":"Redial",
-                    "value":"Redial"
+                    "value":"5"
                   },
                   {
                     "text":"Page",
-                    "value":"Page"
+                    "value":"6"
                   }
                 ]
               },
               {
                 "variable":"$idle_key_b",
-                "default_value":"Menu",
+                "default_value":"2",
                 "description":"Soft Key B (Middle)",
                 "type":"list",
                 "data":[
                   {
                     "text":"Phonebook",
-                    "value":"Phonebook"
+                    "value":"1"
                   },
                   {
                     "text":"Menu",
-                    "value":"Menu"
+                    "value":"2"
                   },
                   {
                     "text":"Outgoing Call Log",
-                    "value":"Outgoing Call Log"
+                    "value":"3"
                   },
                   {
                     "text":"Incoming Call Log",
-                    "value":"Incoming Call Log"
+                    "value":"4"
                   },
                   {
                     "text":"Redial",
-                    "value":"Redial"
+                    "value":"5"
                   },
                   {
                     "text":"Page",
-                    "value":"Page"
+                    "value":"6"
                   }
                 ]
               },
               {
                 "variable":"$idle_key_c",
-                "default_value":"Outgoing Call Log",
+                "default_value":"3",
                 "description":"Soft Key C (Right)",
                 "type":"list",
                 "data":[
                   {
                     "text":"Phonebook",
-                    "value":"Phonebook"
+                    "value":"1"
                   },
                   {
                     "text":"Menu",
-                    "value":"Menu"
+                    "value":"2"
                   },
                   {
                     "text":"Outgoing Call Log",
-                    "value":"Outgoing Call Log"
+                    "value":"3"
                   },
                   {
                     "text":"Incoming Call Log",
-                    "value":"Incoming Call Log"
+                    "value":"4"
                   },
                   {
                     "text":"Redial",
-                    "value":"Redial"
+                    "value":"5"
                   },
                   {
                     "text":"Page",
-                    "value":"Page"
+                    "value":"6"
                   }
                 ]
               }
