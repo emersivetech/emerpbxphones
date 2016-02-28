@@ -54,6 +54,26 @@
                       ]
                     },
                     {
+					"variable":"$transport",
+					"default_value":"0",
+					"description":"SIP Transport Type",
+					"type":"list",
+					"data":[
+                        {
+                          "text":"UDP",
+                          "value":"0"
+                        },
+                        {
+                          "text":"TCP",
+                          "value":"1"
+                        },
+                        {
+                          "text":"TLS",
+                          "value":"2"
+                        },
+                      ]
+					},
+                    {
                       "variable":"$extringer",
                       "default_value":"25",
                       "description":"Ringtone for this line",
