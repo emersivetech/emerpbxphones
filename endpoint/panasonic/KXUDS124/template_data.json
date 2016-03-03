@@ -1,0 +1,547 @@
+{
+  "template_data":{
+    "category":[
+      {
+        "name":"general",
+        "subcategory":[
+          {
+            "name":"general",
+            "item":[
+              {
+                "variable":"$web_access",
+                "default_value":"Y",
+                "description":"Enable Web UI",
+                "type":"radio",
+                "data":[
+                  {
+                    "text":"Yes",
+                    "value":"Y"
+                  },
+                  {
+                    "text":"No",
+                    "value":"N"
+                  }
+                ]
+              },
+              {
+                "variable":"$http_timeout",
+                "default_value":"300",
+                "description":"Web UI Timeout",
+                "type":"input"
+              },
+              {
+                "variable":"$http_user",
+                "default_value":"user",
+                "description":"HTTP Username",
+                "type":"input"
+              },
+              {
+                "variable":"$http_pass",
+                "default_value":"emersive",
+                "description":"HTTP Password",
+                "type":"input"
+              },
+              {
+                "variable":"$admin_mode_login",
+                "default_value":"admin",
+                "description":"Admin Mode Login",
+                "type":"input"
+              },
+              {
+                "variable":"$admin_mode_password",
+                "default_value":"emersive",
+                "description":"Admin Mode Password",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$vlan_enable",
+                "default_value":"N",
+                "description":"Enable VLAN Tags",
+                "type":"radio",
+                "data":[
+                  {
+                    "text":"Yes",
+                    "value":"Y"
+                  },
+                  {
+                    "text":"No",
+                    "value":"N"
+                  }
+                ]
+              },
+              {
+                "variable":"$vlan_id",
+                "default_value":"",
+                "description":"Phone VLAN ID",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_qos",
+                "default_value":"",
+                "description":"Phone VLAN Priority",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_pc_id",
+                "default_value":"",
+                "description":"PC Port VLAN Id",
+                "type":"input"
+              },
+              {
+                "variable":"$vlan_pc_priority",
+                "default_value":"",
+                "description":"PC Port VLAN Priority",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$firmware_enable",
+                "default_value":"N",
+                "description":"Enable Firmware Upgrade",
+                "type":"radio",
+                "data":[
+                  {
+                    "text":"Yes",
+                    "value":"Y"
+                  },
+                  {
+                    "text":"No",
+                    "value":"N"
+                  }
+                ]
+              },
+              {
+                "variable":"$firmwareurl",
+                "default_value":"",
+                "description":"Firmware URL",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$time_zone",
+                "default_value":"720",
+                "description":"Time Zone",
+                "type":"list",
+                "data":[
+  				  {
+					"value": "-720",
+					"text": "GMT -12:00"
+				  },
+  				  {
+					"value": "-660",
+					"text": "GMT -11:00"
+				  },
+  				  {
+					"value": "-600",
+					"text": "GMT -10:00"
+				  },
+  				  {
+					"value": "-540",
+					"text": "GMT -09:00"
+				  },
+  				  {
+					"value": "-480",
+					"text": "GMT -08:00"
+				  },
+  				  {
+					"value": "-420",
+					"text": "GMT -07:00"
+				  },
+  				  {
+					"value": "-360",
+					"text": "GMT -06:00"
+				  },
+  				  {
+					"value": "-300",
+					"text": "GMT -05:00"
+				  },
+  				  {
+					"value": "-240",
+					"text": "GMT -04:00"
+				  },
+  				  {
+					"value": "-210",
+					"text": "GMT -03:30"
+				  },
+  				  {
+					"value": "-180",
+					"text": "GMT -03:00"
+				  },
+  				  {
+					"value": "-120",
+					"text": "GMT -02:00"
+				  },
+  				  {
+					"value": "-60",
+					"text": "GMT -01:00"
+				  },
+  				  {
+					"value": "0",
+					"text": "GMT"
+				  },
+  				  {
+					"value": "60",
+					"text": "GMT +01:00"
+				  },
+  				  {
+					"value": "120",
+					"text": "GMT +02:00"
+				  },
+  				  {
+					"value": "180",
+					"text": "GMT +03:00"
+				  },
+  				  {
+					"value": "210",
+					"text": "GMT +03:30"
+				  },
+  				  {
+					"value": "240",
+					"text": "GMT +04:00"
+				  },
+  				  {
+					"value": "270",
+					"text": "GMT +04:30"
+				  },
+  				  {
+					"value": "300",
+					"text": "GMT +05:00"
+				  },
+  				  {
+					"value": "330",
+					"text": "GMT +05:30"
+				  },
+  				  {
+					"value": "345",
+					"text": "GMT +05:45"
+				  },
+  				  {
+					"value": "360",
+					"text": "GMT +06:00"
+				  },
+  				  {
+					"value": "390",
+					"text": "GMT +06:30"
+				  },
+  				  {
+					"value": "420",
+					"text": "GMT +07:00"
+				  },
+  				  {
+					"value": "480",
+					"text": "GMT +08:00"
+				  },
+  				  {
+					"value": "540",
+					"text": "GMT +09:00"
+				  },
+  				  {
+					"value": "570",
+					"text": "GMT +09:30"
+				  },
+  				  {
+					"value": "600",
+					"text": "GMT +10:00"
+				  },
+  				  {
+					"value": "660",
+					"text": "GMT +11:00"
+				  },
+  				  {
+					"value": "720",
+					"text": "GMT +12:00"
+				  },
+  				  {
+					"value": "780",
+					"text": "GMT +13:00"
+				  }
+                ]
+              },
+              {
+                "variable":"$dst_enable",
+                "default_value":"Y",
+                "description":"Enable Daylight Savings",
+                "type":"radio",
+                "data":[
+                  {
+                    "text":"Yes",
+                    "value":"Y"
+                  },
+                  {
+                    "text":"No",
+                    "value":"N"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_offset",
+                "default_value":"60",
+                "description":"DST Offset",
+                "type":"input"
+              },
+              {
+                "variable":"$dst_start_month",
+                "default_value":"9",
+                "description":"DST Start Month",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"January",
+                    "value":"1"
+                  },
+                  {
+                    "text":"February",
+                    "value":"2"
+                  },
+                  {
+                    "text":"March",
+                    "value":"3"
+                  },
+                  {
+                    "text":"April",
+                    "value":"4"
+                  },
+                  {
+                    "text":"May",
+                    "value":"5"
+                  },
+                  {
+                    "text":"June",
+                    "value":"6"
+                  },
+                  {
+                    "text":"July",
+                    "value":"7"
+                  },
+                  {
+                    "text":"August",
+                    "value":"8"
+                  },
+                  {
+                    "text":"September",
+                    "value":"9"
+                  },
+                  {
+                    "text":"October",
+                    "value":"10"
+                  },
+                  {
+                    "text":"November",
+                    "value":"11"
+                  },
+                  {
+                    "text":"December",
+                    "value":"12"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_start_week",
+                "default_value":"1",
+                "description":"DST Start Week",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"1st week of month",
+                    "value":"1"
+                  },
+                  {
+                    "text":"2nd week of month",
+                    "value":"2"
+                  },
+                  {
+                    "text":"3rd week of month",
+                    "value":"3"
+                  },
+                  {
+                    "text":"4th week of month",
+                    "value":"4"
+                  },
+                  {
+                    "text":"Last week of month",
+                    "value":"5"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_start_day",
+                "default_value":"0",
+                "description":"DST Start Day",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"Sunday",
+                    "value":"0"
+                  },
+                  {
+                    "text":"Monday",
+                    "value":"1"
+                  },
+                  {
+                    "text":"Tuesday",
+                    "value":"2"
+                  },
+                  {
+                    "text":"Wednesday",
+                    "value":"3"
+                  },
+                  {
+                    "text":"Thursday",
+                    "value":"4"
+                  },
+                  {
+                    "text":"Friday",
+                    "value":"5"
+                  },
+                  {
+                    "text":"Saturday",
+                    "value":"6"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_start_time",
+                "default_value":"120",
+                "description":"DST Start Time (minutes pas 12:00)",
+                "type":"input"
+              },
+              {
+                "variable":"$dst_stop_month",
+                "default_value":"4",
+                "description":"DST Stop Month",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"January",
+                    "value":"1"
+                  },
+                  {
+                    "text":"February",
+                    "value":"2"
+                  },
+                  {
+                    "text":"March",
+                    "value":"3"
+                  },
+                  {
+                    "text":"April",
+                    "value":"4"
+                  },
+                  {
+                    "text":"May",
+                    "value":"5"
+                  },
+                  {
+                    "text":"June",
+                    "value":"6"
+                  },
+                  {
+                    "text":"July",
+                    "value":"7"
+                  },
+                  {
+                    "text":"August",
+                    "value":"8"
+                  },
+                  {
+                    "text":"September",
+                    "value":"9"
+                  },
+                  {
+                    "text":"October",
+                    "value":"10"
+                  },
+                  {
+                    "text":"November",
+                    "value":"11"
+                  },
+                  {
+                    "text":"December",
+                    "value":"12"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_stop_week",
+                "default_value":"5",
+                "description":"DST Stop Week",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"1st week of month",
+                    "value":"1"
+                  },
+                  {
+                    "text":"2nd week of month",
+                    "value":"2"
+                  },
+                  {
+                    "text":"3rd week of month",
+                    "value":"3"
+                  },
+                  {
+                    "text":"4th week of month",
+                    "value":"4"
+                  },
+                  {
+                    "text":"Last week of month",
+                    "value":"5"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_stop_day",
+                "default_value":"0",
+                "description":"DST Stop Day",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"Sunday",
+                    "value":"0"
+                  },
+                  {
+                    "text":"Monday",
+                    "value":"1"
+                  },
+                  {
+                    "text":"Tuesday",
+                    "value":"2"
+                  },
+                  {
+                    "text":"Wednesday",
+                    "value":"3"
+                  },
+                  {
+                    "text":"Thursday",
+                    "value":"4"
+                  },
+                  {
+                    "text":"Friday",
+                    "value":"5"
+                  },
+                  {
+                    "text":"Saturday",
+                    "value":"6"
+                  }
+                ]
+              },
+              {
+                "variable":"$dst_stop_time",
+                "default_value":"120",
+                "description":"DST Stop Time (minutes pas 12:00)",
+                "type":"input"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

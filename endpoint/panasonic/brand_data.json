@@ -6,7 +6,7 @@
       "brand_id": "101",
       "package": "panasonic.tgz",
       "md5sum": "dce6737850378430f14a28494b037693",
-      "last_modified": 1456457479,
+      "last_modified": 1457042249,
       "family_list": [
         {
           "id": "1",
@@ -15,6 +15,14 @@
           "description": "Panasonic KXHDV2xx Phones",
           "changelog": "",
           "last_modified": 1456457479
+        },
+        {
+          "id": "2",
+          "name": "Panasonic KXUDS124",
+          "directory": "KXUDS124",
+          "description": "Panasonic KXUDS124 DECT Base",
+          "changelog": "",
+          "last_modified": 1457042249
         }
       ],
       "oui_list": [

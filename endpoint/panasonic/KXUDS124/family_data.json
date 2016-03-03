@@ -1,0 +1,32 @@
+{
+	"data":
+	{
+		"name":"Panasonic KX-UDS124 DECT Base Unit",
+		"id":"2",
+		"directory":"KXUDS124",
+		"firmware_ver":"",
+		"firmware_pkg":"NULL",
+		"firmware_md5sum":"",
+		"description":"Server + Password Settings, cfg File Fixes",
+		"configuration_files":"$mac.cfg,$model.cfg,ConfigCommon.cfg",
+		"changelog":"",
+		"provisioning_types":
+		[
+			"tftp"
+		],
+		"model_list":
+		[
+			{
+				"model":"KX-UDS124",
+				"lines":"1",
+				"id":"1",
+				"template_data":
+				[
+					"line_options.json",
+					"template_data.json",
+					"flexable_keys.json"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,121 @@
+{
+  "template_data":{
+    "category":[
+      {
+        "name":"flexable keys",
+        "subcategory":[
+          {
+            "name":"flexable keys",
+            "item":[
+              {
+                "description":"Flexable Keys (1-12)",
+                "type":"loop",
+                "loop_start":"1",
+                "loop_end":"12",
+                "data":{
+                  "item":[
+                    {
+                      "variable":"$flexablekey_label",
+                      "default_value":"",
+                      "description":"Label Name {$count}",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$flexablekey_value",
+                      "default_value":"",
+                      "description":"Parameter {$count}",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$flexablekey_type",
+                      "default_value":"0",
+                      "description":"Type {$count}",
+                      "type":"list",
+                      "data":[
+						  {
+							"value": "0",
+							"text": "None"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_ONETOUCH",
+							"text": "One Touch Dial"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_BLF",
+							"text": "BLF"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_LINE",
+							"text": "Line"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_ACD",
+							"text": "ACD"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_WRAPUP",
+							"text": "Wrap"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_LINESTATUS",
+							"text": "Line Status"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_FORWARD",
+							"text": "Call Forward"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_PHONEBOOK",
+							"text": "Phonebook"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_CALLLOG",
+							"text": "Call History"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_PARARING",
+							"text": "Simultaneous Ring"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_HOTELING",
+							"text": "Hospitality"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_TRANSFER",
+							"text": "Trasnfer"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_BLINDTRANSFER",
+							"text": "Blind Transfer"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_CONFERENCE",
+							"text": "Conference"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_DIRECTPICKUP",
+							"text": "Directed Call Pickup"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_CALLPARK",
+							"text": "Call Park"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_PARKRETRIEVE",
+							"text": "Call Park Retrieve"
+						  }
+                      ]
+                    },
+                    {
+	                  "type":"break"
+	                }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
