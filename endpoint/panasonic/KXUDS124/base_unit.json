@@ -5,7 +5,7 @@
         "name":"base unit options",
         "subcategory":[
           {
-            "name":"base unit options",
+            "name":"Base Options",
             "item":[
               {
                 "variable":"$user_host",
@@ -18,6 +18,9 @@
                 "default_value":"{$server.ip.1}",
                 "description":"SIP Outbound",
                 "type":"input"
+              },
+              {
+                "type":"break"
               },
               {
                 "variable":"$web_access",
@@ -133,6 +136,38 @@
                 "description":"Super Master CS IP",
                 "type":"input"
               },
+		      {
+		        "variable":"$outbounddtmf",
+		        "default_value":"Y",
+		        "description":"DTMF Method",
+	            "type":"radio",
+		        "data":[
+		          {
+		            "text":"Outbound",
+		            "value":"Y"
+		          },
+		          {
+		            "text":"Inbound",
+		            "value":"N"
+		          }
+		        ]
+		      },
+		      {
+		        "variable":"$dtmf",
+		        "default_value":"N",
+		        "description":"DTMF SIP INFO",
+	            "type":"radio",
+		        "data":[
+		          {
+		            "text":"Yes",
+		            "value":"Y"
+		          },
+		          {
+		            "text":"No",
+		            "value":"N"
+		          }
+		        ]
+		      },
               {
                 "type":"break"
               },
@@ -574,6 +609,9 @@
                 "default_value":"120",
                 "description":"DST Stop Time (minutes pas 12:00)",
                 "type":"input"
+              },
+              {
+                "type":"break"
               },
               {
                 "variable":"$vm_number",

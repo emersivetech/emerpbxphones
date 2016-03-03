@@ -37,26 +37,6 @@
                       "type":"break"
                     },
                     {
-                      "variable":"$dtmf",
-                      "default_value":"0",
-                      "description":"DTMF Value",
-                      "type":"radio",
-                      "data":[
-                        {
-                          "text":"RFC2833",
-                          "value":"0"
-                        },
-                        {
-                          "text":"Inband",
-                          "value":"1"
-                        },
-                        {
-                          "text":"SIP INFO",
-                          "value":"2"
-                        }
-                      ]
-                    },
-                    {
 					"variable":"$transport",
 					"default_value":"0",
 					"description":"SIP Transport Type",
@@ -242,6 +222,12 @@
                     },
                     {
 	                  "type":"break"
+	                },
+	                {
+	                  "variable":"$vm_number2",
+	                  "default_value":"2999",
+	                  "description":"Voicemail Number",
+	                  "type":"input"
 	                }
                   ]
                 }
