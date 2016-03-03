@@ -22,8 +22,8 @@
 				"id":"1",
 				"template_data":
 				[
-					"line_options.json",
-					"template_data.json",
+					"handset_options.json",
+					"base_unit.json",
 					"flexable_keys.json"
 				]
 			}

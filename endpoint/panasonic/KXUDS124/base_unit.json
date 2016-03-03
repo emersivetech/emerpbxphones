@@ -2,11 +2,23 @@
   "template_data":{
     "category":[
       {
-        "name":"general",
+        "name":"base unit options",
         "subcategory":[
           {
-            "name":"general",
+            "name":"base unit options",
             "item":[
+              {
+                "variable":"$user_host",
+                "default_value":"{$server.ip.1}",
+                "description":"SIP Host",
+                "type":"input"
+              },
+              {
+                "variable":"$user_outbound",
+                "default_value":"{$server.ip.1}",
+                "description":"SIP Outbound",
+                "type":"input"
+              },
               {
                 "variable":"$web_access",
                 "default_value":"Y",
@@ -27,18 +39,6 @@
                 "variable":"$http_timeout",
                 "default_value":"300",
                 "description":"Web UI Timeout",
-                "type":"input"
-              },
-              {
-                "variable":"$http_user",
-                "default_value":"user",
-                "description":"HTTP Username",
-                "type":"input"
-              },
-              {
-                "variable":"$http_pass",
-                "default_value":"emersive",
-                "description":"HTTP Password",
                 "type":"input"
               },
               {
@@ -82,6 +82,55 @@
                 "variable":"$vlan_qos",
                 "default_value":"",
                 "description":"Phone VLAN Priority",
+                "type":"input"
+              },
+              {
+                "type":"break"
+              },
+              {
+                "variable":"$airsyncgroup",
+                "default_value":"1",
+                "description":"Base Airsync Group",
+                "type":"list",
+                "data":[
+                  {
+                    "text":"1",
+                    "value":"1"
+                  },
+                  {
+                    "text":"2",
+                    "value":"2"
+                  },
+                  {
+                    "text":"3",
+                    "value":"3"
+                  },
+                  {
+                    "text":"4",
+                    "value":"4"
+                  },
+                  {
+                    "text":"5",
+                    "value":"5"
+                  },
+                  {
+                    "text":"6",
+                    "value":"6"
+                  },
+                  {
+                    "text":"7",
+                    "value":"7"
+                  },
+                  {
+                    "text":"8",
+                    "value":"8"
+                  }
+                ]
+              },
+              {
+                "variable":"$supermasterip",
+                "default_value":"",
+                "description":"Super Master CS IP",
                 "type":"input"
               },
               {
@@ -524,6 +573,12 @@
                 "variable":"$dst_stop_time",
                 "default_value":"120",
                 "description":"DST Stop Time (minutes pas 12:00)",
+                "type":"input"
+              },
+              {
+                "variable":"$vm_number",
+                "default_value":"2999",
+                "description":"Voicemail Number",
                 "type":"input"
               }
             ]

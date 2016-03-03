@@ -41,68 +41,8 @@
 							"text": "One Touch Dial"
 						  },
 						  {
-							"value": "X_PANASONIC_IPTEL_BLF",
-							"text": "BLF"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_LINE",
-							"text": "Line"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_ACD",
-							"text": "ACD"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_WRAPUP",
-							"text": "Wrap"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_LINESTATUS",
-							"text": "Line Status"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_FORWARD",
-							"text": "Call Forward"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_PHONEBOOK",
-							"text": "Phonebook"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_CALLLOG",
-							"text": "Call History"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_PARARING",
-							"text": "Simultaneous Ring"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_HOTELING",
-							"text": "Hospitality"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_TRANSFER",
-							"text": "Trasnfer"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_BLINDTRANSFER",
-							"text": "Blind Transfer"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_CONFERENCE",
-							"text": "Conference"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_DIRECTPICKUP",
-							"text": "Directed Call Pickup"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_CALLPARK",
-							"text": "Call Park"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_PARKRETRIEVE",
-							"text": "Call Park Retrieve"
+							"value": "X_PANASONIC_IPTEL_DN",
+							"text": "DN"
 						  }
                       ]
                     },

@@ -1,0 +1,255 @@
+{
+  "template_data":{
+    "category":[
+      {
+        "name":"lines",
+        "subcategory":[
+          {
+            "name":"basic",
+            "item":[
+              {
+                "description":"Handset Options",
+                "type":"loop_line_options",
+                "data":{
+                  "item":[
+                    {
+                      "variable":"$ipei",
+                      "default_value":"",
+                      "description":"Handset IPEI",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$realname",
+                      "default_value":"{$displayname.line.{$count}}",
+                      "description":"Display Name",
+                      "type":"input"
+                    },
+                    {
+                      "type":"break"
+                    },
+					{
+	                  "variable":"$http_pass",
+	                  "default_value":"emersive",
+	                  "description":"HTTP Password",
+	                  "type":"input"
+	              	},
+                    {
+                      "type":"break"
+                    },
+                    {
+                      "variable":"$dtmf",
+                      "default_value":"0",
+                      "description":"DTMF Value",
+                      "type":"radio",
+                      "data":[
+                        {
+                          "text":"RFC2833",
+                          "value":"0"
+                        },
+                        {
+                          "text":"Inband",
+                          "value":"1"
+                        },
+                        {
+                          "text":"SIP INFO",
+                          "value":"2"
+                        }
+                      ]
+                    },
+                    {
+					"variable":"$transport",
+					"default_value":"0",
+					"description":"SIP Transport Type",
+					"type":"list",
+					"data":[
+                        {
+                          "text":"UDP",
+                          "value":"0"
+                        },
+                        {
+                          "text":"TCP",
+                          "value":"1"
+                        },
+                        {
+                          "text":"TLS",
+                          "value":"2"
+                        }
+                      ]
+					},
+                    {
+                      "variable":"$extringer",
+                      "default_value":"25",
+                      "description":"Ringtone for this line",
+                      "type":"list",
+                      "data":[
+                        {
+                          "text":"Ringtone 1",
+                          "value":"1"
+                        },
+                        {
+                          "text":"Ringtone 2",
+                          "value":"2"
+                        },
+                        {
+                          "text":"Ringtone 3",
+                          "value":"3"
+                        },
+                        {
+                          "text":"Ringtone 4",
+                          "value":"4"
+                        },
+                        {
+                          "text":"Ringtone 5",
+                          "value":"5"
+                        },
+                        {
+                          "text":"Ringtone 6",
+                          "value":"6"
+                        },
+                        {
+                          "text":"Ringtone 7",
+                          "value":"7"
+                        },
+                        {
+                          "text":"Ringtone 8",
+                          "value":"8"
+                        },
+                        {
+                          "text":"Ringtone 9",
+                          "value":"9"
+                        },
+                        {
+                          "text":"Ringtone 10",
+                          "value":"10"
+                        },
+                        {
+                          "text":"Ringtone 11",
+                          "value":"11"
+                        },
+                        {
+                          "text":"Ringtone 12",
+                          "value":"12"
+                        },
+                        {
+                          "text":"Ringtone 13",
+                          "value":"13"
+                        },
+                        {
+                          "text":"Ringtone 14",
+                          "value":"14"
+                        },
+                        {
+                          "text":"Ringtone 15",
+                          "value":"15"
+                        },
+                        {
+                          "text":"Ringtone 16",
+                          "value":"16"
+                        },
+                        {
+                          "text":"Ringtone 17",
+                          "value":"17"
+                        },
+                        {
+                          "text":"Ringtone 18",
+                          "value":"18"
+                        },
+                        {
+                          "text":"Ringtone 19",
+                          "value":"19"
+                        },
+                        {
+                          "text":"Ringtone 20",
+                          "value":"20"
+                        },
+                        {
+                          "text":"Ringtone 21",
+                          "value":"21"
+                        },
+                        {
+                          "text":"Ringtone 22",
+                          "value":"22"
+                        },
+                        {
+                          "text":"Ringtone 23",
+                          "value":"23"
+                        },
+                        {
+                          "text":"Ringtone 24",
+                          "value":"24"
+                        },
+                        {
+                          "text":"Ringtone 25",
+                          "value":"25"
+                        }
+                      ]
+                    },
+                    {
+                      "type":"break"
+                    },
+                    {
+                      "variable":"$display_text_url",
+                      "default_value":"Emersive PBX",
+                      "description":"Display text for Idle Screen",
+                      "type":"input"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name":"flexable keys",
+            "item":[
+              {
+                "description":"Flexable Keys (1-12)",
+                "type":"loop",
+                "loop_start":"1",
+                "loop_end":"12",
+                "data":{
+                  "item":[
+                    {
+                      "variable":"$flexablekey_label",
+                      "default_value":"",
+                      "description":"Label Name {$count}",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$flexablekey_value",
+                      "default_value":"",
+                      "description":"Parameter {$count}",
+                      "type":"input"
+                    },
+                    {
+                      "variable":"$flexablekey_type",
+                      "default_value":"0",
+                      "description":"Type {$count}",
+                      "type":"list",
+                      "data":[
+						  {
+							"value": "0",
+							"text": "None"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_ONETOUCH",
+							"text": "One Touch Dial"
+						  },
+						  {
+							"value": "X_PANASONIC_IPTEL_DN",
+							"text": "DN"
+						  }
+                      ]
+                    },
+                    {
+	                  "type":"break"
+	                }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
