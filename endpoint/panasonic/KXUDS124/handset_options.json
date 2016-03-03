@@ -44,57 +44,7 @@
                       "default_value":"Emersive PBX",
                       "description":"Display text for Idle Screen",
                       "type":"input"
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-          {
-            "name":"flexable keys",
-            "item":[
-              {
-                "description":"Flexable Keys (1-12)",
-                "type":"loop",
-                "loop_start":"1",
-                "loop_end":"12",
-                "data":{
-                  "item":[
-                    {
-                      "variable":"$flexablekey_label",
-                      "default_value":"",
-                      "description":"Label Name {$count}",
-                      "type":"input"
                     },
-                    {
-                      "variable":"$flexablekey_value",
-                      "default_value":"",
-                      "description":"Parameter {$count}",
-                      "type":"input"
-                    },
-                    {
-                      "variable":"$flexablekey_type",
-                      "default_value":"0",
-                      "description":"Type {$count}",
-                      "type":"list",
-                      "data":[
-						  {
-							"value": "0",
-							"text": "None"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_ONETOUCH",
-							"text": "One Touch Dial"
-						  },
-						  {
-							"value": "X_PANASONIC_IPTEL_DN",
-							"text": "DN"
-						  }
-                      ]
-                    },
-                    {
-	                  "type":"break"
-	                },
 	                {
 	                  "variable":"$vm_number2",
 	                  "default_value":"2999",
