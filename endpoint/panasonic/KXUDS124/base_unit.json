@@ -172,6 +172,29 @@
                 "type":"break"
               },
               {
+				"variable":"$transport",
+				"default_value":"0",
+				"description":"SIP Transport Type",
+				"type":"list",
+				"data":[
+                  {
+                    "text":"UDP",
+                    "value":"0"
+                  },
+                  {
+                    "text":"TCP",
+                    "value":"1"
+                  },
+                  {
+                    "text":"TLS",
+                    "value":"2"
+                  }
+                ]
+			  },
+              {
+                "type":"break"
+              },
+              {
                 "variable":"$firmware_enable",
                 "default_value":"N",
                 "description":"Enable Firmware Upgrade",
