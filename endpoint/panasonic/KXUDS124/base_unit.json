@@ -367,11 +367,11 @@
                 "data":[
                   {
                     "text":"Yes",
-                    "value":"Yes"
+                    "value":"Y"
                   },
                   {
                     "text":"No",
-                    "value":"No"
+                    "value":"N"
                   }
                 ]
               },
