@@ -116,6 +116,12 @@
                 ]
               },
               {
+                "variable":"$firmwareversion",
+                "default_value":"",
+                "description":"Firmware Version Number",
+                "type":"input"
+              },
+              {
                 "variable":"$firmwareurl",
                 "default_value":"",
                 "description":"Firmware URL",
